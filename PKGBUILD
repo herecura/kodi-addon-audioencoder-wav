@@ -3,7 +3,7 @@
 
 pkgname=kodi-audioencoder-wav
 pkgver=20150601.797c990
-pkgrel=1
+pkgrel=2
 pkgdesc="kodi audioencoder addon for wav"
 arch=('i686' 'x86_64')
 url='https://github.com/xbmc/audioencoder.wav'
