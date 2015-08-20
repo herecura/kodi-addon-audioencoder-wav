@@ -2,8 +2,9 @@
 # Maintainer: BlackEagle <ike.devolder@gmail.com>>
 
 pkgname=kodi-audioencoder-wav
+_commit=78bbca0
 pkgver=20150810.78bbca0
-pkgrel=1
+pkgrel=2
 pkgdesc="kodi audioencoder addon for wav"
 arch=('i686' 'x86_64')
 url='https://github.com/xbmc/audioencoder.wav'
@@ -11,7 +12,7 @@ license=('GPL')
 groups=('kodi-addons')
 depends=('kodi')
 makedepends=('git' 'cmake')
-source=("$pkgname::git://github.com/xbmc/audioencoder.wav.git")
+source=("$pkgname::git://github.com/xbmc/audioencoder.wav.git#commit=$_commit")
 sha256sums=('SKIP')
 
 pkgver() {
